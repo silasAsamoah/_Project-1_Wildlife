@@ -1,0 +1,8 @@
+.footer{ 
+    @include layout(flex,row,space-between,center);
+    color: $tertiary-color;
+    font-size: 13px;
+    min-height: 80px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}

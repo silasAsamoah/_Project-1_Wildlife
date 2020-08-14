@@ -1,0 +1,54 @@
+.endangered{
+    background: url(/asserts/img/endangered.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 528px;
+    .container{
+        padding-top: 123px;
+        height: 100%;
+    }
+    h1{
+        font-size: $h1-sm;
+    }
+    p{
+        font-size: 16px;
+        padding: 1rem 0;
+        max-width: 600px;
+    }
+    span{
+        color: $primary-color;
+        display: flex;
+        svg{
+            padding-left: 2px;
+            font-size: 2px;
+            align-self: center;
+        }
+    }
+}
+
+@media screen and (min-width: $large){
+    .endangered{
+        .container{
+            padding-top: 130px;
+            height: 100%;
+        }
+        h1{
+            font-size: $h1-lg;
+        }
+        p{
+            font-size: $h3-lg;
+            padding: 1rem 0;
+            max-width: 600px;
+        }
+        span{
+            font-size: $h3-lg;
+            color: $primary-color;
+            display: flex;
+            svg{
+                padding-left: 2px;
+                font-size: 2px;
+            }
+        }
+    }
+    
+}

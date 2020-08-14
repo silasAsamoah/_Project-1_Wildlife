@@ -1,0 +1,29 @@
+.someDetails{
+    .cards{
+        color: $tertiary-color;
+        @include layout(flex,row,space-evenly,unset);
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        .card{
+            padding: 2rem 0;
+            width: 270px;
+            img{
+                height:300px;
+                width: 100%;
+            }
+            h2{
+                padding: .5rem 0;
+                font-size: $h2-sm;
+            }
+            p{
+                padding-bottom: 28px;
+                // text-align: justify;
+                font-size: 14px;
+            }
+            a{
+                @include btn($secondary-color,#fff,$secondary-color,15px,30px);
+    
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.makeDonation{
+    background: url(/asserts/img/bg-blur-rhino.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 434px;
+    @include layout(flex,column,space-evenly,unset);
+
+    .logo{
+        width:90%;
+    }
+    .txt{
+        h2{
+            font-size: 40px;
+        }
+        h3{
+            font-size: $h3-sm;
+            color: $secondary-color;
+        }
+    }
+    a{
+    //($bg-color,$txt-color,$border-color,$padding-top_bottom,$padding-left_right)
+    @include btn($secondary-color,#fff,$secondary-color,15px,30px);
+    }
+}

@@ -1,0 +1,23 @@
+.helpNature{
+    @include layout(flex,row,space-evenly,unset);
+    flex-wrap: wrap;
+    padding-bottom: 47px;
+    padding-top: 47px;
+    
+    .group1,.group2{
+        max-width: 300px;
+        // text-align: center;
+        h2{
+            font-size: $h2-sm;
+            color: $secondary-color;
+        }
+        p{
+            font-size: 16px;
+            color: $tertiary-color;
+            padding-top: 0.8rem;
+        }
+        .card{
+            padding-bottom:1.5em; 
+        }
+    }
+}

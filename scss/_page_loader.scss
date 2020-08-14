@@ -1,0 +1,21 @@
+//page loader
+.loading{
+    position: absolute;
+    // display: none;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    overflow: hidden;
+    z-index: 4;
+    img{
+    position: inherit;
+    width: 200px;
+    right: 40%;
+    bottom: 50%;
+    transition: opacity 3s ease;
+}
+}
+.load-finish{
+    opacity: 0;
+    pointer-events: none;
+}

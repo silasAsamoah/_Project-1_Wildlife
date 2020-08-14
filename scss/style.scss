@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: 'bree_serifregular';
+    src: url('/asserts/fonts/breeserif-regular.ttf') format('ttf'),
+    url('/asserts/fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('/asserts/fonts/breeserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    
+    
+@import "page_loader";
+@import "mixins_variables";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+body,html{
+    // height: 100vh;
+    font-family: Arial,Helvetica, sans-serif;
+    color: #fff;
+}
+.container{
+    padding: 0 10%;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: $large){
+    .container{
+        padding: 0 15%;
+    }
+}
+
+
+@import "landing_page";
+@import "overview";
+@import "endangered";
+@import "helpNature";
+@import "video";
+@import "someDetails";
+@import "volunteers";
+@import "makeDonation";
+@import "address";
+@import "footer";

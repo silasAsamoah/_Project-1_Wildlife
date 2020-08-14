@@ -1,0 +1,29 @@
+.volunteers{
+    color: $tertiary-color;
+    padding-bottom: 27px;
+    @include layout(flex,row,space-evenly,unset);
+    flex-wrap: wrap;
+    .details{
+        h2{
+            color: $primary-color;
+            font-size: $h1-sm;
+            padding: 0.5em 0;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            color: $tertiary-color;
+            font-size: 16px;
+            padding: 0.5em 0;
+        }
+        
+    }
+    .txt{
+        padding:  0;
+        p{
+            font-size: 16px;
+            padding: 1em;
+            width: 400px;
+        }
+    }
+}
