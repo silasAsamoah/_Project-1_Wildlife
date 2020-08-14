@@ -14,6 +14,7 @@
 
 // init();
 
+//reload base on page load
 window.addEventListener('load',()=> {
     const preloader = document.querySelector('.loading');
     preloader.classList.add('load-finish');
