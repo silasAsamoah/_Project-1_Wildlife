@@ -18,7 +18,7 @@
             p{
                 padding-bottom: 28px;
                 // text-align: justify;
-                font-size: 14px;
+                font-size: $p-md;
             }
             a{
                 @include btn($secondary-color,#fff,$secondary-color,15px,30px);

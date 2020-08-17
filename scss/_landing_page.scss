@@ -27,6 +27,9 @@
         color: #fff;
 
         .logo{
+            a{
+                text-decoration: none;
+            }
             #nav-logo{
                 max-width: 90%;
                 margin-top: 3px;
@@ -59,6 +62,7 @@
             font-size: $h1-sm;
             color: inherit;
             padding-bottom: .3rem;
+            font-weight: 600;
         }
         h3{
             font-size: $h3-sm;
@@ -67,7 +71,7 @@
             font-weight: 600;
         }
         p{
-            font-size: 16x;
+            font-size: $p-sm;
             max-width: 350px;
         }
     }
@@ -194,7 +198,7 @@
                 padding-bottom: 1.5rem;
             }
             p{
-                font-size: 17px;
+                font-size: $p-md;
             }
         } 
         .cards{ grid-template-columns:1fr 1fr;
@@ -238,7 +242,7 @@
                 padding-bottom: 1.5rem;
             }
             p{
-                font-size: 17px;
+                font-size: $p-lg;
             }
         }     
         

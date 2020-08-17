@@ -15,18 +15,20 @@ $medium-duration: 0.2s;
 $slow-duration:0.3s;
 
 //text
-$h1-sm: 29px;  //-mainHeading  mobile
-$h2-sm: 20px;  //-subHeading
+$h1-sm: 30px;  //-mainHeading  mobile
+$h2-sm: 21px;  //-subHeading
 $h3-sm: 12px;  //-subSubHeading
+$p-sm: 15px;
 
-$h1-md: 37px;  //-mainHeading   tablet
-$h2-md: 28px;  //-subHeading
+$h1-md: 38px;  //-mainHeading   tablet
+$h2-md: 29px;  //-subHeading
 $h3-md: 16px;  //-subSubHeading
+$p-md: 16px;
 
-$h1-lg: 45px;  //-mainHeading   desktop
-$h2-lg: 33px;  //-subHeading
+$h1-lg: 46px;  //-mainHeading   desktop
+$h2-lg: 34px;  //-subHeading
 $h3-lg: 20px;  //-subSubHeading
-
+$p-lg: 17px;
 
 /* mixins */
 @mixin layout($display,$direction,$justify,$align) {
