@@ -8,7 +8,7 @@
             padding: 2rem 0;
             width: 270px;
             img{
-                height:300px;
+                height:250px;
                 width: 100%;
             }
             h2{
@@ -22,6 +22,10 @@
             }
             a{
                 @include btn($secondary-color,#fff,$secondary-color,15px,30px);
+                &:hover,&:active,&::selection{
+                    @include hoverEffect();
+                    background: hsl(40, 79%, 43%); ;   //minimal bg color change
+                }
     
             }
         }

@@ -7,6 +7,9 @@
     .group1,.group2{
         max-width: 300px;
         // text-align: center;
+        a{
+            text-decoration: none;
+        }
         h2{
             font-size: $h2-sm;
             color: $secondary-color;

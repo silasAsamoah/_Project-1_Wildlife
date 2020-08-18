@@ -24,16 +24,22 @@
     }
     .txt-section{
         max-width: 350px;
+        padding-left: 1rem;
         h2{
             font-size: $h2-sm;
             padding: 1rem 0 0.5rem;
         }
         p{
             font-size: 16px;
+            // padding-bottom: 37px;
             padding-bottom: 37px;
         }
         a{
             @include btn(transparent,inherit,#fff,15px,30px);
+            &:hover,&:active,&::selection{
+                @include hoverEffect();
+                border: 1px solid hsl(40, 100%, 50%);    //minimal bg color change
+            }
         }
     }
 }

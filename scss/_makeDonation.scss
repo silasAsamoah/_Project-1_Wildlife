@@ -20,5 +20,9 @@
     a{
     //($bg-color,$txt-color,$border-color,$padding-top_bottom,$padding-left_right)
     @include btn($secondary-color,#fff,$secondary-color,15px,30px);
+    &:hover,&:active,&::selection{
+        @include hoverEffect();
+        background: hsl(40, 79%, 43%);    //minimal bg color change
     }
+    }    
 }

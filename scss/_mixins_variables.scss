@@ -9,6 +9,11 @@ $primary-color: #FFBA2D;
 $secondary-color: #EFAA1D;
 $tertiary-color: #222917;
 
+//animation speed
+$fast-duration: 0.1s;
+$medium-duration: 0.2s;
+$slow-duration:0.3s;
+
 //text
 $h1-sm: 29px;  //-mainHeading  mobile
 $h2-sm: 20px;  //-subHeading
@@ -40,4 +45,98 @@ $h3-lg: 20px;  //-subSubHeading
     border-radius: 10px;
     font-weight: 600;
     padding: $padding-top_bottom $padding-left_right;
+}
+
+
+//animations and keyframes
+
+@mixin hacks(){
+    transform: perspective(1px) translateZ(0); //reduce blur in chrome
+    box-shadow: 0 0 1px rgba(0,0,0,0);   //aliasing in mob/tabs
+    // display:inline-block;     //!impo for transform
+    vertical-align:middle;     //!impo for transform
+}
+
+@mixin hoverEffect {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 2ms;
+  }
+
+@mixin underline-from-center {
+    $duration: $medium-duration;
+    $underLineColor:$secondary-color;
+
+	@include hacks();
+	position: relative;
+	overflow: hidden;
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		left: 51%;
+		right: 51%;
+        bottom: -3px;  //push line down sligtly
+		background: $underLineColor;
+		height: 2px;
+		transition-property: "left, right";
+		transition-duration: $duration;
+		transition-timing-function: ease-out;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+
+		&:before {
+			left: 15%;  //line does not extend to end
+			right: 15%;  
+		}
+	}
+}
+
+@keyframes wobble { //used in icon-wobble mixin
+	16.65% {
+		transform: translateX(6px);
+	}
+
+	33.3% {
+		transform: translateX(-5px);
+	}
+
+	49.95% {
+		transform: translateX(4px);
+	}
+
+	66.6% {
+		transform: translateX(-2px);
+	}
+
+	83.25% {
+		transform: translateX(1px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@mixin icon-wobble {
+	@include hacks();
+	transition-duration: $medium-duration;
+
+	.hvr-icon {transform: translateZ(0);}
+
+	&:hover,
+	&:focus,
+	&:active {
+
+		.hvr-icon {
+			animation-name: wobble;  //using the wobble keyframe
+			animation-duration: 1s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+		}
+	}
 }

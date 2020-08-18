@@ -1,7 +1,7 @@
 .address{
     background: $primary-color;
     color: #fff;
-    @include layout(flex,row,space-evenly,unset);
+    @include layout(flex,row,space-between,unset);
     flex-wrap: wrap;
     padding-bottom: 37px;
     

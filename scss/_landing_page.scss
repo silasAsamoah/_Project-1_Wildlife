@@ -6,6 +6,7 @@
     top: 1.7rem;
     right: 10%;
     opacity: .8;
+    cursor: pointer;
 }
 .landing-page {
     display: grid;
@@ -37,6 +38,7 @@
                 position: relative;
                 ul{
                     li{ list-style: none;
+                        @include underline-from-center();
                         a{ 
                             color: inherit;
                             text-decoration: none;
@@ -46,6 +48,7 @@
             }
             .view-more{
                 width: auto;
+                @include icon-wobble();
             }
         }
     }
@@ -61,6 +64,7 @@
             font-size: $h3-sm;
             color: $primary-color;
             padding-bottom: 1.5rem;
+            font-weight: 600;
         }
         p{
             font-size: 16x;
@@ -83,9 +87,17 @@
         .donate{
             background: $secondary-color;
             margin-right: 10px;
+            &:hover,&:active,&::selection{
+                @include hoverEffect();
+                background: hsl(40, 79%, 43%);  //slight bg change
+            }
         }
         .learn-more{
             background: $tertiary-color;
+            &:hover,&:active,&::selection{
+                @include hoverEffect();
+                background: rgb(27, 32, 20);   //minimal bg color change
+            }
         }
     }
     .cards{
@@ -95,30 +107,12 @@
         top: 60%; 
         height: 140px;   //display,direction,justify,align
         @include layout(grid,unset,center,center);
-        grid-template-columns:1fr 1fr;
-        // flex-wrap: wrap;
+        grid-template-columns: 1fr;
         
 
         .card-quote{  //flex
-            @include layout(flex,column,space-evenly,baseline);
-            padding-left: 5%;
-            padding-right: 2%;
-            height: 100%;
-            background: $primary-color;
-            // max-width: 50%;
-            #comma{
-                font-size: $h2-sm;
-                padding-top: 10px;
-            }
-            #quote-txt{
-                font-size: 16px;
-                padding-bottom: 5px;
-                color: $tertiary-color;
-                font-weight: 600;
-            }
-            #award{
-                font-size: 14px;
-            }
+            display: none !important; 
+            //hidden for small screens 
         }
         .card-contact{ //grid
             @include layout(grid,none,center,center);
@@ -203,6 +197,30 @@
                 font-size: 17px;
             }
         } 
+        .cards{ grid-template-columns:1fr 1fr;
+            .card-quote{
+                $disp:flex !important;
+                @include layout($disp,column,space-evenly,baseline);
+                padding-left: 5%;
+                padding-right: 2%;
+                height: 100%;
+                background: $primary-color;
+                // max-width: 50%;
+                #comma{
+                    font-size: $h2-sm;
+                    padding-top: 10px;
+                }
+                #quote-txt{
+                    font-size: 16px;
+                    padding-bottom: 5px;
+                    color: $tertiary-color;
+                    font-weight: 600;
+                }
+                #award{
+                    font-size: 14px;
+                }
+            }
+        }
     }   
 
 }
