@@ -13,6 +13,9 @@
     img{
         width: 284px;
         height: 370px;
+        &:hover,&:active{
+            cursor: pointer;
+        }
     }
     svg{
         width: 65px;
@@ -20,6 +23,13 @@
         position: absolute;
         margin-top: 150px;
         margin-left: -170px;
+        &:hover,&:active{
+            width: 70px;
+            height: 70px;
+            margin-left: -172px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
         
     }
     .txt-section{
