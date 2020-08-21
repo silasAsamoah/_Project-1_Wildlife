@@ -1,7 +1,7 @@
 //page loader
 .loading{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: #fff;
     z-index: 4;
@@ -13,9 +13,9 @@
 }
 }
 .load-finish{
-    @include fade-out();
-    pointer-events: none;
-    opacity: 0 !important;
+    // @include fade-out();
+    // pointer-events: none;
+    // opacity: 0 !important;
     display: none !important;
 
 }
