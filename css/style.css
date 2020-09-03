@@ -408,6 +408,7 @@ body, html {
   color: #222917 !important;
   font-weight: 600;
   padding: 10px;
+  width: 100%;
 }
 
 .menu_content .view-more {
@@ -445,15 +446,15 @@ body, html {
   margin-top: 3px;
 }
 
-.landing-page header .menu {
+.landing-page header .menu, .landing-page header #menu_nav {
   display: none;
 }
 
-.landing-page header .menu .nav-links {
+.landing-page header .menu .nav-links, .landing-page header #menu_nav .nav-links {
   position: relative;
 }
 
-.landing-page header .menu .nav-links ul li {
+.landing-page header .menu .nav-links ul li, .landing-page header #menu_nav .nav-links ul li {
   list-style: none;
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
@@ -464,7 +465,7 @@ body, html {
   overflow: hidden;
 }
 
-.landing-page header .menu .nav-links ul li:before {
+.landing-page header .menu .nav-links ul li:before, .landing-page header #menu_nav .nav-links ul li:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -481,17 +482,17 @@ body, html {
           transition-timing-function: ease-out;
 }
 
-.landing-page header .menu .nav-links ul li:hover:before, .landing-page header .menu .nav-links ul li:focus:before, .landing-page header .menu .nav-links ul li:active:before {
+.landing-page header .menu .nav-links ul li:hover:before, .landing-page header .menu .nav-links ul li:focus:before, .landing-page header .menu .nav-links ul li:active:before, .landing-page header #menu_nav .nav-links ul li:hover:before, .landing-page header #menu_nav .nav-links ul li:focus:before, .landing-page header #menu_nav .nav-links ul li:active:before {
   left: 15%;
   right: 15%;
 }
 
-.landing-page header .menu .nav-links ul li a {
+.landing-page header .menu .nav-links ul li a, .landing-page header #menu_nav .nav-links ul li a {
   color: inherit;
   text-decoration: none;
 }
 
-.landing-page header .menu .view-more {
+.landing-page header .menu .view-more, .landing-page header #menu_nav .view-more {
   width: auto;
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
@@ -503,12 +504,12 @@ body, html {
   cursor: pointer;
 }
 
-.landing-page header .menu .view-more .hvr-icon {
+.landing-page header .menu .view-more .hvr-icon, .landing-page header #menu_nav .view-more .hvr-icon {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
 }
 
-.landing-page header .menu .view-more:hover .hvr-icon, .landing-page header .menu .view-more:focus .hvr-icon, .landing-page header .menu .view-more:active .hvr-icon {
+.landing-page header .menu .view-more:hover .hvr-icon, .landing-page header .menu .view-more:focus .hvr-icon, .landing-page header .menu .view-more:active .hvr-icon, .landing-page header #menu_nav .view-more:hover .hvr-icon, .landing-page header #menu_nav .view-more:focus .hvr-icon, .landing-page header #menu_nav .view-more:active .hvr-icon {
   -webkit-animation-name: wobble;
           animation-name: wobble;
   -webkit-animation-duration: 1s;

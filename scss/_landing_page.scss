@@ -35,6 +35,7 @@
                  color: $tertiary-color !important;
                  font-weight: 600;
                  padding: 10px;
+                 width: 100%;
                 }
             }
         }
@@ -72,7 +73,7 @@
                 margin-top: 3px;
             }
         }
-        .menu{
+        .menu,#menu_nav{
             display: none;
             .nav-links{     
             position: relative;
