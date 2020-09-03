@@ -1,1 +1,1330 @@
-@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.svg#BarlowCondensed-Regular") format("svg");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.svg#BarlowCondensed-Medium") format("svg");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.svg#BarlowCondensed-BlackItalic") format("svg");font-weight:900;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.svg#BarlowCondensed-ExtraLightItalic") format("svg");font-weight:200;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.svg#BarlowCondensed-SemiBold") format("svg");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.svg#BarlowCondensed-SemiBoldItalic") format("svg");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.svg#BarlowCondensed-LightItalic") format("svg");font-weight:300;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.svg#BarlowCondensed-MediumItalic") format("svg");font-weight:500;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.svg#BarlowCondensed-ExtraLight") format("svg");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.svg#BarlowCondensed-Italic") format("svg");font-weight:normal;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.svg#BarlowCondensed-ExtraBoldItalic") format("svg");font-weight:800;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.svg#BarlowCondensed-ThinItalic") format("svg");font-weight:100;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.svg#BarlowCondensed-Thin") format("svg");font-weight:100;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.svg#BarlowCondensed-ExtraBold") format("svg");font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.svg#BarlowCondensed-Light") format("svg");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.svg#BarlowCondensed-BoldItalic") format("svg");font-weight:bold;font-style:italic;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.svg#BarlowCondensed-Black") format("svg");font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:'Barlow Condensed';src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot");src:url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff2") format("woff2"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff") format("woff"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.ttf") format("truetype"),url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.svg#BarlowCondensed-Bold") format("svg");font-weight:bold;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.svg#YanoneKaffeesatz-Regular") format("svg");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.svg#YanoneKaffeesatz-Light") format("svg");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.svg#YanoneKaffeesatz-SemiBold") format("svg");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.svg#YanoneKaffeesatz-ExtraLight") format("svg");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.svg#YanoneKaffeesatz-Bold") format("svg");font-weight:bold;font-style:normal;font-display:swap}@font-face{font-family:'Yanone Kaffeesatz';src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot");src:url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot?#iefix") format("embedded-opentype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff2") format("woff2"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff") format("woff"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.ttf") format("truetype"),url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.svg#YanoneKaffeesatz-Medium") format("svg");font-weight:500;font-style:normal;font-display:swap}@-webkit-keyframes wobble{16.65%{-webkit-transform:translateX(6px);transform:translateX(6px)}33.3%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}49.95%{-webkit-transform:translateX(4px);transform:translateX(4px)}66.6%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}83.25%{-webkit-transform:translateX(1px);transform:translateX(1px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes wobble{16.65%{-webkit-transform:translateX(6px);transform:translateX(6px)}33.3%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}49.95%{-webkit-transform:translateX(4px);transform:translateX(4px)}66.6%{-webkit-transform:translateX(-2px);transform:translateX(-2px)}83.25%{-webkit-transform:translateX(1px);transform:translateX(1px)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeout{from{opacity:1}to{opacity:0}}@-webkit-keyframes fadeout{from{opacity:1}to{opacity:0}}.loading{display:none !important;position:fixed;width:100%;height:100vh;background:#fff;z-index:4}.loading img{position:inherit;width:200px;bottom:50%;right:45%}.load-finish{display:none !important}*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body,html{scroll-behavior:smooth;font-family:'Barlow Condensed','Yanone Kaffeesatz',sans-serif;color:#fff}.container{padding:0 10%;line-height:1.5}@media screen and (min-width: 1280px){.container{padding:0 15%}}.mobile-menu{position:fixed;top:1.7rem;right:10%;opacity:.8;cursor:pointer}.landing-page{display:-ms-grid;display:grid;-ms-grid-rows:minmax(100px, 120px) (1fr)[3];grid-template-rows:minmax(100px, 120px) repeat(3, 1fr);grid-template-areas:'header' 'welcome-txt' 'buttons' 'card';height:600px;background:url(../asserts/img/bg.jpg);background-size:cover;background-position:center}.landing-page header{-ms-grid-row:1;-ms-grid-column:1;grid-area:header;height:4rem;margin-top:1rem;color:#fff}.landing-page header .logo a{text-decoration:none}.landing-page header .logo #nav-logo{max-width:90%;margin-top:3px}.landing-page header .menu{display:none}.landing-page header .menu .nav-links{position:relative}.landing-page header .menu .nav-links ul li{list-style:none;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);-webkit-box-shadow:0 0 1px rgba(0,0,0,0);box-shadow:0 0 1px rgba(0,0,0,0);vertical-align:middle;position:relative;overflow:hidden}.landing-page header .menu .nav-links ul li:before{content:"";position:absolute;z-index:-1;left:51%;right:51%;bottom:-3px;background:#EFAA1D;height:2px;-webkit-transition-property:"left, right";transition-property:"left, right";-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}.landing-page header .menu .nav-links ul li:hover:before,.landing-page header .menu .nav-links ul li:focus:before,.landing-page header .menu .nav-links ul li:active:before{left:15%;right:15%}.landing-page header .menu .nav-links ul li a{color:inherit;text-decoration:none}.landing-page header .menu .view-more{width:auto;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);-webkit-box-shadow:0 0 1px rgba(0,0,0,0);box-shadow:0 0 1px rgba(0,0,0,0);vertical-align:middle;-webkit-transition-duration:.2s;transition-duration:.2s}.landing-page header .menu .view-more .hvr-icon{-webkit-transform:translateZ(0);transform:translateZ(0)}.landing-page header .menu .view-more:hover .hvr-icon,.landing-page header .menu .view-more:focus .hvr-icon,.landing-page header .menu .view-more:active .hvr-icon{-webkit-animation-name:wobble;animation-name:wobble;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;animation-iteration-count:1}.landing-page .welcome-info{-ms-grid-row:2;-ms-grid-column:1;grid-area:welcome-txt;font-weight:500}.landing-page .welcome-info h1{font-size:30px;color:inherit;padding-bottom:.3rem;font-weight:600}.landing-page .welcome-info h3{font-size:12px;color:#FFBA2D;padding-bottom:1.5rem;font-weight:600}.landing-page .welcome-info p{font-size:15px;max-width:350px}.landing-page .buttons{-ms-grid-row:3;-ms-grid-column:1;grid-area:buttons;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:2rem;font-weight:600}.landing-page .buttons a{text-decoration:none;background:inherit;color:inherit;font-size:12px;border:1px solid rgba(0,0,0,0);border-radius:10px;font-weight:600;padding:15px 30px;min-width:150px;min-height:50px;text-align:center}.landing-page .buttons .donate{background:#EFAA1D;margin-right:10px}.landing-page .buttons .donate:hover,.landing-page .buttons .donate:active,.landing-page .buttons .donate::-moz-selection{transition-duration:1s;transition-timing-function:ease;transition-delay:2ms;background:#c48b17}.landing-page .buttons .donate:hover,.landing-page .buttons .donate:active,.landing-page .buttons .donate::selection{-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:2ms;transition-delay:2ms;background:#c48b17}.landing-page .buttons .learn-more{background:#222917}.landing-page .buttons .learn-more:hover,.landing-page .buttons .learn-more:active,.landing-page .buttons .learn-more::-moz-selection{transition-duration:1s;transition-timing-function:ease;transition-delay:2ms;background:#1b2014}.landing-page .buttons .learn-more:hover,.landing-page .buttons .learn-more:active,.landing-page .buttons .learn-more::selection{-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:2ms;transition-delay:2ms;background:#1b2014}.landing-page .cards{-ms-grid-row:4;-ms-grid-column:1;grid-area:card;position:relative;top:60%;height:140px;display:-ms-grid;display:grid;-webkit-box-orient:unset;-webkit-box-direction:unset;-ms-flex-direction:unset;flex-direction:unset;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-grid-columns:1fr;grid-template-columns:1fr}.landing-page .cards .card-quote{display:none !important}.landing-page .cards .card-contact{display:-ms-grid;display:grid;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:none;flex-direction:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-grid-rows:0.5fr 1fr;grid-template-rows:0.5fr 1fr;height:100%;background:#EFAA1D}.landing-page .cards .card-contact h2{font-size:21px;color:#222917;text-align:center}.landing-page .cards .card-contact span{display:-ms-grid;display:grid;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:none;flex-direction:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-grid-columns:auto (minmax(100px, 120px))[2] auto;grid-template-columns:auto repeat(2, minmax(100px, 120px)) auto;grid-template-areas:'. logo txt .'}.landing-page .cards .card-contact span .abt-logo{-ms-grid-row:1;-ms-grid-column:2;grid-area:logo;text-align:center}.landing-page .cards .card-contact span .abt-txt{-ms-grid-row:1;-ms-grid-column:3;grid-area:txt;text-align:center;-ms-flex-item-align:start;-ms-grid-row-align:start;align-self:start;font-size:15px}@media screen and (min-width: 800px){.mobile-menu{display:none}.landing-page header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.landing-page header .menu{display:inherit;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:16px;font-weight:500}.landing-page header .menu .nav-links{padding:0 2em}.landing-page header .menu .nav-links ul li{display:inline;padding:0 1em}.landing-page header .menu .view-more{display:-webkit-box;display:-ms-flexbox;display:flex;color:#EFAA1D}.landing-page header .menu .view-more svg{margin:2px}.landing-page .welcome-info{margin-top:8%}.landing-page .welcome-info h1{font-size:38px;padding-bottom:.3rem;font-weight:inherit}.landing-page .welcome-info h3{font-size:16px;padding-bottom:1.5rem}.landing-page .welcome-info p{font-size:16px}.landing-page .cards{-ms-grid-columns:1fr 1fr;grid-template-columns:1fr 1fr}.landing-page .cards .card-quote{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;padding-left:5%;padding-right:2%;height:100%;background:#FFBA2D}.landing-page .cards .card-quote #comma{font-size:21px;padding-top:10px}.landing-page .cards .card-quote #quote-txt{font-size:16px;padding-bottom:5px;color:#222917;font-weight:600}.landing-page .cards .card-quote #award{font-size:14px}}@media screen and (min-width: 1280px){.landing-page .welcome-info{margin-top:7%}.landing-page .welcome-info h1{font-size:46px;padding-bottom:1rem;font-weight:inherit}.landing-page .welcome-info h3{font-size:20px;padding-bottom:1.5rem}.landing-page .welcome-info p{font-size:17px}}.overview{margin-top:120px;padding-bottom:37px}.overview .cards{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap}.overview .cards .card{height:374px;margin:1em;width:250px}.overview .cards .card img{width:100%;height:203px}.overview .cards .card h2{text-align:center;font-size:21px;color:#EFAA1D}.overview .cards .card p{font-size:16px;color:#222917;padding:1rem 0.5rem;text-align:justify}.endangered{background:url(../asserts/img/endangered.jpg);background-size:cover;background-position:center;height:528px}.endangered .container{padding-top:123px;height:100%}.endangered h1{font-size:30px}.endangered p{font-size:16px;padding:1rem 0;max-width:600px}.endangered a{color:#FFBA2D;display:-webkit-box;display:-ms-flexbox;display:flex;text-decoration:none;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);-webkit-box-shadow:0 0 1px rgba(0,0,0,0);box-shadow:0 0 1px rgba(0,0,0,0);vertical-align:middle;-webkit-transition-duration:.2s;transition-duration:.2s}.endangered a .hvr-icon{-webkit-transform:translateZ(0);transform:translateZ(0)}.endangered a:hover .hvr-icon,.endangered a:focus .hvr-icon,.endangered a:active .hvr-icon{-webkit-animation-name:wobble;animation-name:wobble;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-iteration-count:1;animation-iteration-count:1}.endangered a svg{padding-left:2px;font-size:2px;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}@media screen and (min-width: 1280px){.endangered .container{padding-top:130px;height:100%}.endangered h1{font-size:46px}.endangered p{font-size:20px;padding:1rem 0;max-width:600px}.endangered span{font-size:20px;color:#FFBA2D;display:-webkit-box;display:-ms-flexbox;display:flex}.endangered span svg{padding-left:2px;font-size:2px}}.helpNature{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:47px;padding-top:47px}.helpNature .group1,.helpNature .group2{max-width:300px}.helpNature .group1 a,.helpNature .group2 a{text-decoration:none}.helpNature .group1 h2,.helpNature .group2 h2{font-size:21px;color:#EFAA1D}.helpNature .group1 p,.helpNature .group2 p{font-size:16px;color:#222917;padding-top:0.8rem}.helpNature .group1 .card,.helpNature .group2 .card{padding-bottom:1.5em}.video{padding-top:47px;padding-bottom:37px;color:#fff;background:url(../asserts/img/bg-blurred.jpg);background-size:cover;background-position:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap}.video img{width:284px;height:370px}.video img:hover,.video img:active{cursor:pointer}.video svg{width:65px;height:65px;position:absolute;margin-top:150px;margin-left:-170px}.video svg:hover,.video svg:active{width:70px;height:70px;margin-left:-172px;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;cursor:pointer}.video .txt-section{max-width:350px;padding-left:1rem}.video .txt-section h2{font-size:21px;padding:1rem 0 0.5rem}.video .txt-section p{font-size:16px;padding-bottom:37px}.video .txt-section a{text-decoration:none;background:rgba(0,0,0,0);color:inherit;font-size:12px;border:1px solid #fff;border-radius:10px;font-weight:600;padding:15px 30px}.video .txt-section a:hover,.video .txt-section a:active,.video .txt-section a::-moz-selection{transition-duration:1s;transition-timing-function:ease;transition-delay:2ms;border:1px solid #fa0}.video .txt-section a:hover,.video .txt-section a:active,.video .txt-section a::selection{-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:2ms;transition-delay:2ms;border:1px solid #fa0}.someDetails .cards{color:#222917;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:1rem}.someDetails .cards .card{padding:2rem 0;width:270px}.someDetails .cards .card img{height:250px;width:100%}.someDetails .cards .card h2{padding:.5rem 0;font-size:21px}.someDetails .cards .card p{padding-bottom:28px;font-size:16px}.someDetails .cards .card a{text-decoration:none;background:#EFAA1D;color:#fff;font-size:12px;border:1px solid #EFAA1D;border-radius:10px;font-weight:600;padding:15px 30px}.someDetails .cards .card a:hover,.someDetails .cards .card a:active,.someDetails .cards .card a::-moz-selection{transition-duration:1s;transition-timing-function:ease;transition-delay:2ms;background:#c48b17}.someDetails .cards .card a:hover,.someDetails .cards .card a:active,.someDetails .cards .card a::selection{-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:2ms;transition-delay:2ms;background:#c48b17}.volunteers{color:#222917;padding-bottom:27px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap}.volunteers .details h2{color:#FFBA2D;font-size:30px;padding:0.5em 0}.volunteers .details a{text-decoration:none;display:block;color:#222917;font-size:16px;padding:0.5em 0}.volunteers .txt{padding:0}.volunteers .txt p{font-size:16px;padding:1em;width:400px}.makeDonation{background:url(../asserts/img/bg-blur-rhino.jpg);background-size:cover;background-position:center;height:434px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset}.makeDonation .logo{width:90%}.makeDonation .txt h2{font-size:40px}.makeDonation .txt h3{font-size:12px;color:#EFAA1D;font-weight:600}.makeDonation a{text-decoration:none;background:#EFAA1D;color:#fff;font-size:12px;border:1px solid #EFAA1D;border-radius:10px;font-weight:600;padding:15px 30px}.makeDonation a:hover,.makeDonation a:active,.makeDonation a::-moz-selection{transition-duration:1s;transition-timing-function:ease;transition-delay:2ms;background:#c48b17}.makeDonation a:hover,.makeDonation a:active,.makeDonation a::selection{-webkit-transition-duration:1s;transition-duration:1s;-webkit-transition-timing-function:ease;transition-timing-function:ease;-webkit-transition-delay:2ms;transition-delay:2ms;background:#c48b17}.address{background:#FFBA2D;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:unset;-ms-flex-align:unset;align-items:unset;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:37px}.address .card{width:250px;padding:1em 0}.address .card h2{font-size:21px;padding:.5em 0}.address .card p{font-size:16px;padding-bottom:0.5em}.address .card a{text-decoration:none;color:#222917}.footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#222917;font-size:13px;min-height:80px;font-weight:600;-ms-flex-wrap:wrap;flex-wrap:wrap}.footer a{text-decoration:none;color:#222917}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Regular.svg#BarlowCondensed-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Medium.svg#BarlowCondensed-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BlackItalic.svg#BarlowCondensed-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLightItalic.svg#BarlowCondensed-ExtraLightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBold.svg#BarlowCondensed-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-SemiBoldItalic.svg#BarlowCondensed-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-LightItalic.svg#BarlowCondensed-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-MediumItalic.svg#BarlowCondensed-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraLight.svg#BarlowCondensed-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Italic.svg#BarlowCondensed-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBoldItalic.svg#BarlowCondensed-ExtraBoldItalic") format("svg");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ThinItalic.svg#BarlowCondensed-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Thin.svg#BarlowCondensed-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-ExtraBold.svg#BarlowCondensed-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Light.svg#BarlowCondensed-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-BoldItalic.svg#BarlowCondensed-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Black.svg#BarlowCondensed-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot");
+  src: url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff2") format("woff2"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.woff") format("woff"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.ttf") format("truetype"), url("../asserts/fonts/barlowCondensed-webfont/BarlowCondensed-Bold.svg#BarlowCondensed-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Regular.svg#YanoneKaffeesatz-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Light.svg#YanoneKaffeesatz-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-SemiBold.svg#YanoneKaffeesatz-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-ExtraLight.svg#YanoneKaffeesatz-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Bold.svg#YanoneKaffeesatz-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot");
+  src: url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.eot?#iefix") format("embedded-opentype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff2") format("woff2"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.woff") format("woff"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.ttf") format("truetype"), url("../asserts/fonts/YanoneKaffeesatz-webfont/YanoneKaffeesatz-Medium.svg#YanoneKaffeesatz-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* mixins */
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(6px);
+            transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateX(6px);
+            transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Internet Explorer */
+
+/* Opera < 12.1 */
+
+.loading {
+  display: none !important;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  z-index: 4;
+}
+
+.loading img {
+  position: inherit;
+  width: 200px;
+  bottom: 50%;
+  right: 45%;
+}
+
+.load-finish {
+  display: none !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  scroll-behavior: smooth;
+  font-family: 'Barlow Condensed','Yanone Kaffeesatz',sans-serif;
+  color: #fff;
+}
+
+.container {
+  padding: 0 10%;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 15%;
+  }
+}
+
+/* small screens */
+.mobile-menu {
+  position: fixed;
+  top: 1.7rem;
+  right: 10%;
+  opacity: .8;
+  cursor: pointer;
+}
+
+/*For mobile menu styling onclick*/
+.menu_content {
+  position: fixed;
+  background: #eee;
+  z-index: 100;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+}
+
+.menu_content .nav-links {
+  margin: 100px 0;
+}
+
+.menu_content .nav-links ul li {
+  list-style: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+
+.menu_content .nav-links ul li:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: -3px;
+  background: #EFAA1D;
+  height: 2px;
+  -webkit-transition-property: "left, right";
+  transition-property: "left, right";
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.menu_content .nav-links ul li:hover:before, .menu_content .nav-links ul li:focus:before, .menu_content .nav-links ul li:active:before {
+  left: 15%;
+  right: 15%;
+}
+
+.menu_content .nav-links ul li:hover {
+  background: #222917;
+}
+
+.menu_content .nav-links ul li:hover a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.menu_content .nav-links ul li a {
+  color: #222917 !important;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.menu_content .view-more {
+  padding: 10px;
+  background: #222917;
+}
+
+.landing-page {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: minmax(100px, 120px) (1fr)[3];
+      grid-template-rows: minmax(100px, 120px) repeat(3, 1fr);
+      grid-template-areas: 'header' 'welcome-txt' 'buttons' 'card';
+  height: 600px;
+  background: url(../asserts/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-page header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  height: 4rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.landing-page header .logo a {
+  text-decoration: none;
+}
+
+.landing-page header .logo #nav-logo {
+  max-width: 90%;
+  margin-top: 3px;
+}
+
+.landing-page header .menu {
+  display: none;
+}
+
+.landing-page header .menu .nav-links {
+  position: relative;
+}
+
+.landing-page header .menu .nav-links ul li {
+  list-style: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page header .menu .nav-links ul li:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: -3px;
+  background: #EFAA1D;
+  height: 2px;
+  -webkit-transition-property: "left, right";
+  transition-property: "left, right";
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.landing-page header .menu .nav-links ul li:hover:before, .landing-page header .menu .nav-links ul li:focus:before, .landing-page header .menu .nav-links ul li:active:before {
+  left: 15%;
+  right: 15%;
+}
+
+.landing-page header .menu .nav-links ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.landing-page header .menu .view-more {
+  width: auto;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.landing-page header .menu .view-more .hvr-icon {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.landing-page header .menu .view-more:hover .hvr-icon, .landing-page header .menu .view-more:focus .hvr-icon, .landing-page header .menu .view-more:active .hvr-icon {
+  -webkit-animation-name: wobble;
+          animation-name: wobble;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.landing-page .welcome-info {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: welcome-txt;
+  font-weight: 500;
+}
+
+.landing-page .welcome-info h1 {
+  font-size: 30px;
+  color: inherit;
+  padding-bottom: .3rem;
+  font-weight: 600;
+}
+
+.landing-page .welcome-info h3 {
+  font-size: 12px;
+  color: #FFBA2D;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.landing-page .welcome-info p {
+  font-size: 15px;
+  max-width: 350px;
+}
+
+.landing-page .buttons {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: buttons;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+
+.landing-page .buttons a {
+  text-decoration: none;
+  background: inherit;
+  color: inherit;
+  font-size: 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px 30px;
+  min-width: 150px;
+  min-height: 50px;
+  text-align: center;
+}
+
+.landing-page .buttons .donate {
+  background: #EFAA1D;
+  margin-right: 10px;
+}
+
+.landing-page .buttons .donate:hover, .landing-page .buttons .donate:active, .landing-page .buttons .donate::-moz-selection {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.landing-page .buttons .donate:hover, .landing-page .buttons .donate:active, .landing-page .buttons .donate::selection {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 2ms;
+          transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.landing-page .buttons .learn-more {
+  background: #222917;
+}
+
+.landing-page .buttons .learn-more:hover, .landing-page .buttons .learn-more:active, .landing-page .buttons .learn-more::-moz-selection {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 2ms;
+  background: #1b2014;
+}
+
+.landing-page .buttons .learn-more:hover, .landing-page .buttons .learn-more:active, .landing-page .buttons .learn-more::selection {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 2ms;
+          transition-delay: 2ms;
+  background: #1b2014;
+}
+
+.landing-page .cards {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: card;
+  position: relative;
+  top: 60%;
+  height: 140px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.landing-page .cards .card-quote {
+  display: none !important;
+}
+
+.landing-page .cards .card-contact {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-rows: 0.5fr 1fr;
+      grid-template-rows: 0.5fr 1fr;
+  height: 100%;
+  background: #EFAA1D;
+}
+
+.landing-page .cards .card-contact h2 {
+  font-size: 21px;
+  color: #222917;
+  text-align: center;
+}
+
+.landing-page .cards .card-contact span {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: auto (minmax(100px, 120px))[2] auto;
+      grid-template-columns: auto repeat(2, minmax(100px, 120px)) auto;
+      grid-template-areas: '. logo txt .';
+}
+
+.landing-page .cards .card-contact span .abt-logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: logo;
+  text-align: center;
+}
+
+.landing-page .cards .card-contact span .abt-txt {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: txt;
+  text-align: center;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 15px;
+}
+
+/* medium screens */
+@media screen and (min-width: 800px) {
+  .mobile-menu, .menu_content {
+    display: none !important;
+  }
+  .landing-page header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .landing-page header .menu {
+    display: inherit;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .landing-page header .menu .nav-links {
+    padding: 0 2em;
+  }
+  .landing-page header .menu .nav-links ul li {
+    display: inline;
+    padding: 0 1em;
+  }
+  .landing-page header .menu .view-more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #EFAA1D;
+  }
+  .landing-page header .menu .view-more svg {
+    margin: 2px;
+  }
+  .landing-page .welcome-info {
+    margin-top: 8%;
+  }
+  .landing-page .welcome-info h1 {
+    font-size: 38px;
+    padding-bottom: .3rem;
+    font-weight: inherit;
+  }
+  .landing-page .welcome-info h3 {
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+  }
+  .landing-page .welcome-info p {
+    font-size: 16px;
+  }
+  .landing-page .cards {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .landing-page .cards .card-quote {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-left: 5%;
+    padding-right: 2%;
+    height: 100%;
+    background: #FFBA2D;
+  }
+  .landing-page .cards .card-quote #comma {
+    font-size: 21px;
+    padding-top: 10px;
+  }
+  .landing-page .cards .card-quote #quote-txt {
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #222917;
+    font-weight: 600;
+  }
+  .landing-page .cards .card-quote #award {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .landing-page .welcome-info {
+    margin-top: 7%;
+  }
+  .landing-page .welcome-info h1 {
+    font-size: 46px;
+    padding-bottom: 1rem;
+    font-weight: inherit;
+  }
+  .landing-page .welcome-info h3 {
+    font-size: 20px;
+    padding-bottom: 1.5rem;
+  }
+  .landing-page .welcome-info p {
+    font-size: 17px;
+  }
+}
+
+.overview {
+  margin-top: 120px;
+  padding-bottom: 37px;
+}
+
+.overview .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.overview .cards .card {
+  height: 374px;
+  margin: 1em;
+  width: 250px;
+}
+
+.overview .cards .card img {
+  width: 100%;
+  height: 203px;
+}
+
+.overview .cards .card h2 {
+  text-align: center;
+  font-size: 21px;
+  color: #EFAA1D;
+}
+
+.overview .cards .card p {
+  font-size: 16px;
+  color: #222917;
+  padding: 1rem 0.5rem;
+  text-align: justify;
+}
+
+.endangered {
+  background: url(../asserts/img/endangered.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 528px;
+}
+
+.endangered .container {
+  padding-top: 123px;
+  height: 100%;
+}
+
+.endangered h1 {
+  font-size: 30px;
+}
+
+.endangered p {
+  font-size: 16px;
+  padding: 1rem 0;
+  max-width: 600px;
+}
+
+.endangered a {
+  color: #FFBA2D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.endangered a .hvr-icon {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.endangered a:hover .hvr-icon, .endangered a:focus .hvr-icon, .endangered a:active .hvr-icon {
+  -webkit-animation-name: wobble;
+          animation-name: wobble;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.endangered a svg {
+  padding-left: 2px;
+  font-size: 2px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .endangered .container {
+    padding-top: 130px;
+    height: 100%;
+  }
+  .endangered h1 {
+    font-size: 46px;
+  }
+  .endangered p {
+    font-size: 20px;
+    padding: 1rem 0;
+    max-width: 600px;
+  }
+  .endangered span {
+    font-size: 20px;
+    color: #FFBA2D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .endangered span svg {
+    padding-left: 2px;
+    font-size: 2px;
+  }
+}
+
+.helpNature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 47px;
+  padding-top: 47px;
+}
+
+.helpNature .group1, .helpNature .group2 {
+  max-width: 300px;
+}
+
+.helpNature .group1 a, .helpNature .group2 a {
+  text-decoration: none;
+}
+
+.helpNature .group1 h2, .helpNature .group2 h2 {
+  font-size: 21px;
+  color: #EFAA1D;
+}
+
+.helpNature .group1 p, .helpNature .group2 p {
+  font-size: 16px;
+  color: #222917;
+  padding-top: 0.8rem;
+}
+
+.helpNature .group1 .card, .helpNature .group2 .card {
+  padding-bottom: 1.5em;
+}
+
+.video {
+  padding-top: 47px;
+  padding-bottom: 37px;
+  color: #fff;
+  background: url(../asserts/img/bg-blurred.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.video img {
+  width: 284px;
+  height: 370px;
+}
+
+.video img:hover, .video img:active {
+  cursor: pointer;
+}
+
+.video svg {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -170px;
+}
+
+.video svg:hover, .video svg:active {
+  width: 70px;
+  height: 70px;
+  margin-left: -172px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.video .txt-section {
+  max-width: 350px;
+  padding-left: 1rem;
+}
+
+.video .txt-section h2 {
+  font-size: 21px;
+  padding: 1rem 0 0.5rem;
+}
+
+.video .txt-section p {
+  font-size: 16px;
+  padding-bottom: 37px;
+}
+
+.video .txt-section a {
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+  font-size: 12px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.video .txt-section a:hover, .video .txt-section a:active, .video .txt-section a::-moz-selection {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 2ms;
+  border: 1px solid #ffaa00;
+}
+
+.video .txt-section a:hover, .video .txt-section a:active, .video .txt-section a::selection {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 2ms;
+          transition-delay: 2ms;
+  border: 1px solid #ffaa00;
+}
+
+.someDetails .cards {
+  color: #222917;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.someDetails .cards .card {
+  padding: 2rem 0;
+  width: 270px;
+}
+
+.someDetails .cards .card img {
+  height: 250px;
+  width: 100%;
+}
+
+.someDetails .cards .card h2 {
+  padding: .5rem 0;
+  font-size: 21px;
+}
+
+.someDetails .cards .card p {
+  padding-bottom: 28px;
+  font-size: 16px;
+}
+
+.someDetails .cards .card a {
+  text-decoration: none;
+  background: #EFAA1D;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid #EFAA1D;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.someDetails .cards .card a:hover, .someDetails .cards .card a:active, .someDetails .cards .card a::-moz-selection {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.someDetails .cards .card a:hover, .someDetails .cards .card a:active, .someDetails .cards .card a::selection {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 2ms;
+          transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.volunteers {
+  color: #222917;
+  padding-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.volunteers .details h2 {
+  color: #FFBA2D;
+  font-size: 30px;
+  padding: 0.5em 0;
+}
+
+.volunteers .details a {
+  text-decoration: none;
+  display: block;
+  color: #222917;
+  font-size: 16px;
+  padding: 0.5em 0;
+}
+
+.volunteers .txt {
+  padding: 0;
+}
+
+.volunteers .txt p {
+  font-size: 16px;
+  padding: 1em;
+  width: 400px;
+}
+
+.makeDonation {
+  background: url(../asserts/img/bg-blur-rhino.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 434px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+}
+
+.makeDonation .logo {
+  width: 90%;
+}
+
+.makeDonation .txt h2 {
+  font-size: 40px;
+}
+
+.makeDonation .txt h3 {
+  font-size: 12px;
+  color: #EFAA1D;
+  font-weight: 600;
+}
+
+.makeDonation a {
+  text-decoration: none;
+  background: #EFAA1D;
+  color: #fff;
+  font-size: 12px;
+  border: 1px solid #EFAA1D;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.makeDonation a:hover, .makeDonation a:active, .makeDonation a::-moz-selection {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.makeDonation a:hover, .makeDonation a:active, .makeDonation a::selection {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 2ms;
+          transition-delay: 2ms;
+  background: #c48b17;
+}
+
+.address {
+  background: #FFBA2D;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 37px;
+}
+
+.address .card {
+  width: 250px;
+  padding: 1em 0;
+}
+
+.address .card h2 {
+  font-size: 21px;
+  padding: .5em 0;
+}
+
+.address .card p {
+  font-size: 16px;
+  padding-bottom: 0.5em;
+}
+
+.address .card a {
+  text-decoration: none;
+  color: #222917;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222917;
+  font-size: 13px;
+  min-height: 80px;
+  font-weight: 600;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #222917;
+}
