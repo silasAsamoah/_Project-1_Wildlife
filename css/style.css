@@ -294,7 +294,6 @@
 /* Opera < 12.1 */
 
 .loading {
-  display: none !important;
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -337,7 +336,7 @@ body, html {
   }
 }
 
-/* small screens */
+/* HAMBURGER MENU*/
 .mobile-menu {
   position: fixed;
   top: 1.7rem;
@@ -346,13 +345,14 @@ body, html {
   cursor: pointer;
 }
 
-/*For mobile menu styling onclick*/
+/*MOBILE MENU STYLING ON CLICK*/
 .menu_content {
   position: fixed;
-  background: #eee;
-  z-index: 100;
+  right: 10%;
+  background: #ddd;
+  z-index: 10;
   text-align: center;
-  width: 80%;
+  width: 300px;
   height: 80%;
 }
 
@@ -360,55 +360,22 @@ body, html {
   margin: 100px 0;
 }
 
+.menu_content .nav-links ul a {
+  color: #222917 !important;
+  font-weight: 600;
+  width: 100%;
+  text-decoration: none;
+}
+
 .menu_content .nav-links ul li {
-  list-style: none;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  vertical-align: middle;
-  position: relative;
-  overflow: hidden;
   margin: 5px 0;
   padding: 10px 0;
 }
 
-.menu_content .nav-links ul li:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: -3px;
-  background: #EFAA1D;
-  height: 2px;
-  -webkit-transition-property: "left, right";
-  transition-property: "left, right";
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-
-.menu_content .nav-links ul li:hover:before, .menu_content .nav-links ul li:focus:before, .menu_content .nav-links ul li:active:before {
-  left: 15%;
-  right: 15%;
-}
-
 .menu_content .nav-links ul li:hover {
   background: #222917;
-}
-
-.menu_content .nav-links ul li:hover a {
+  border-left: 1px solid #000;
   color: #fff !important;
-  text-decoration: none;
-}
-
-.menu_content .nav-links ul li a {
-  color: #222917 !important;
-  font-weight: 600;
-  padding: 10px;
-  width: 100%;
 }
 
 .menu_content .view-more {
@@ -416,6 +383,51 @@ body, html {
   background: #222917;
 }
 
+#menu_nav {
+  display: none;
+}
+
+#menu_nav .nav-links {
+  position: relative;
+}
+
+#menu_nav .nav-links ul a {
+  color: #222917 !important;
+}
+
+#menu_nav .nav-links ul li {
+  list-style: none;
+}
+
+#menu_nav .view-more {
+  width: auto;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#menu_nav .view-more .hvr-icon {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+#menu_nav .view-more:hover .hvr-icon, #menu_nav .view-more:focus .hvr-icon, #menu_nav .view-more:active .hvr-icon {
+  -webkit-animation-name: wobble;
+          animation-name: wobble;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+/* PAGE STYLING BEGINS*/
 .landing-page {
   display: -ms-grid;
   display: grid;
@@ -446,15 +458,15 @@ body, html {
   margin-top: 3px;
 }
 
-.landing-page header .menu, .landing-page header #menu_nav {
+.landing-page header .menu {
   display: none;
 }
 
-.landing-page header .menu .nav-links, .landing-page header #menu_nav .nav-links {
+.landing-page header .menu .nav-links {
   position: relative;
 }
 
-.landing-page header .menu .nav-links ul li, .landing-page header #menu_nav .nav-links ul li {
+.landing-page header .menu .nav-links ul li {
   list-style: none;
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
@@ -465,7 +477,7 @@ body, html {
   overflow: hidden;
 }
 
-.landing-page header .menu .nav-links ul li:before, .landing-page header #menu_nav .nav-links ul li:before {
+.landing-page header .menu .nav-links ul li:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -482,17 +494,17 @@ body, html {
           transition-timing-function: ease-out;
 }
 
-.landing-page header .menu .nav-links ul li:hover:before, .landing-page header .menu .nav-links ul li:focus:before, .landing-page header .menu .nav-links ul li:active:before, .landing-page header #menu_nav .nav-links ul li:hover:before, .landing-page header #menu_nav .nav-links ul li:focus:before, .landing-page header #menu_nav .nav-links ul li:active:before {
+.landing-page header .menu .nav-links ul li:hover:before, .landing-page header .menu .nav-links ul li:focus:before, .landing-page header .menu .nav-links ul li:active:before {
   left: 15%;
   right: 15%;
 }
 
-.landing-page header .menu .nav-links ul li a, .landing-page header #menu_nav .nav-links ul li a {
+.landing-page header .menu .nav-links ul li a {
   color: inherit;
   text-decoration: none;
 }
 
-.landing-page header .menu .view-more, .landing-page header #menu_nav .view-more {
+.landing-page header .menu .view-more {
   width: auto;
   -webkit-transform: perspective(1px) translateZ(0);
           transform: perspective(1px) translateZ(0);
@@ -504,12 +516,12 @@ body, html {
   cursor: pointer;
 }
 
-.landing-page header .menu .view-more .hvr-icon, .landing-page header #menu_nav .view-more .hvr-icon {
+.landing-page header .menu .view-more .hvr-icon {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
 }
 
-.landing-page header .menu .view-more:hover .hvr-icon, .landing-page header .menu .view-more:focus .hvr-icon, .landing-page header .menu .view-more:active .hvr-icon, .landing-page header #menu_nav .view-more:hover .hvr-icon, .landing-page header #menu_nav .view-more:focus .hvr-icon, .landing-page header #menu_nav .view-more:active .hvr-icon {
+.landing-page header .menu .view-more:hover .hvr-icon, .landing-page header .menu .view-more:focus .hvr-icon, .landing-page header .menu .view-more:active .hvr-icon {
   -webkit-animation-name: wobble;
           animation-name: wobble;
   -webkit-animation-duration: 1s;
@@ -707,7 +719,7 @@ body, html {
   font-size: 15px;
 }
 
-/* medium screens */
+/* MEDIA QUERIES */
 @media screen and (min-width: 800px) {
   .mobile-menu, .menu_content {
     display: none !important;

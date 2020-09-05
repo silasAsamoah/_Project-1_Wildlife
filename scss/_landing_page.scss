@@ -1,6 +1,5 @@
 
-/* small screens */
-
+/* HAMBURGER MENU*/
 .mobile-menu{  
     position: fixed;
     top: 1.7rem;
@@ -9,33 +8,32 @@
     cursor: pointer;
 }
 
-/*For mobile menu styling onclick*/
+/*MOBILE MENU STYLING ON CLICK*/
 .menu_content{
     position: fixed;
-    background: #eee;
-    z-index: 100;
+    right: 10%;
+    background: #ddd;
+    z-index: 10;
     text-align: center;
-    width: 80%;
+    width: 300px;
     height: 80%;
+
     .nav-links{    
         margin: 100px 0;
-        ul{
-            li{ list-style: none;
-                @include underline-from-center();
+        ul{  
+            a{
+            color: $tertiary-color !important;
+            font-weight: 600;
+            width: 100%;
+            text-decoration: none;
+            }
+            li{ 
                 margin: 5px 0;
                 padding: 10px 0;
                 &:hover{
                     background: $tertiary-color; 
-                    a{
-                        color:#fff !important;
-                        text-decoration: none;
-                    }
-                }
-                a{
-                 color: $tertiary-color !important;
-                 font-weight: 600;
-                 padding: 10px;
-                 width: 100%;
+                    border-left: 1px solid #000;
+                    color:#fff !important;
                 }
             }
         }
@@ -46,6 +44,27 @@
     }
     
 }
+#menu_nav{
+    display: none;
+    .nav-links{     
+        position: relative;
+        ul{
+            a{
+                color: $tertiary-color !important;
+            }
+            li{ list-style: none;
+            }
+        }
+    }
+    .view-more{
+        width: auto;
+        @include icon-wobble();
+        cursor: pointer;
+    }
+}
+
+
+/* PAGE STYLING BEGINS*/
 .landing-page {
     display: grid;
     grid-template-rows: minmax(100px, 120px) repeat(3, 1fr);
@@ -73,7 +92,7 @@
                 margin-top: 3px;
             }
         }
-        .menu,#menu_nav{
+        .menu{
             display: none;
             .nav-links{     
             position: relative;
@@ -191,8 +210,7 @@
 
 }
 
-/* medium screens */
-
+/* MEDIA QUERIES */
 @media screen and (min-width: $medium){
     .mobile-menu,.menu_content{  
         display:none !important;
