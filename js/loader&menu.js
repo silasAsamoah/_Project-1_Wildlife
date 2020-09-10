@@ -23,11 +23,20 @@ window.addEventListener('load',()=> {
 
 //FOR MENU
 var menu=document.getElementById('menu_nav');
+var overlay=document.getElementById('menu_overlay');
+// var container = document.querySelector('.container');
+// var endangered = document.querySelector('.endangered');
+
 //show menu content on menuclick
 //and add styling class
 function show(){
     menu.style.display='block';
     menu.classList.add('menu_content');
+    overlay.style.display='block';
+    // container.style.opacity = 0.5;
+    // endangered.style.opacity = 0.5;
+    // menu.style.opacity=1;
+
 
 
     /*hide menu content onselection or outside click
@@ -36,6 +45,7 @@ function show(){
         if(event.target != menu){
             menu.style.display="none";
             menu.classList.remove('menu_content');
+            overlay.style.display='none';
         }
     });  
 }

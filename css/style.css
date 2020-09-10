@@ -346,14 +346,25 @@ body, html {
 }
 
 /*MOBILE MENU STYLING ON CLICK*/
+#menu_overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .menu_content {
   position: fixed;
+  top: 5%;
   right: 10%;
   background: #ddd;
   z-index: 10;
   text-align: center;
   width: 300px;
   height: 80%;
+  border: 1px solid #222917;
 }
 
 .menu_content .nav-links {
@@ -374,8 +385,37 @@ body, html {
 
 .menu_content .nav-links ul li:hover {
   background: #222917;
-  border-left: 1px solid #000;
+  border-left: 2px solid #EFAA1D;
   color: #fff !important;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_content .nav-links ul li:hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: -3px;
+  background: #EFAA1D;
+  height: 2px;
+  -webkit-transition-property: "left, right";
+  transition-property: "left, right";
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.menu_content .nav-links ul li:hover:hover:before, .menu_content .nav-links ul li:hover:focus:before, .menu_content .nav-links ul li:hover:active:before {
+  left: 15%;
+  right: 15%;
 }
 
 .menu_content .view-more {

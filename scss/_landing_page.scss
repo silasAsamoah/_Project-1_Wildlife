@@ -9,14 +9,25 @@
 }
 
 /*MOBILE MENU STYLING ON CLICK*/
+
+#menu_overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    background: rgba($color: #000000, $alpha: 0.7);
+}
 .menu_content{
     position: fixed;
+    top:5%;
     right: 10%;
     background: #ddd;
     z-index: 10;
     text-align: center;
     width: 300px;
     height: 80%;
+    border: 1px solid $tertiary-color;
 
     .nav-links{    
         margin: 100px 0;
@@ -32,8 +43,9 @@
                 padding: 10px 0;
                 &:hover{
                     background: $tertiary-color; 
-                    border-left: 1px solid #000;
+                    border-left: 2px solid $secondary-color;
                     color:#fff !important;
+                    @include underline-from-center();
                 }
             }
         }
