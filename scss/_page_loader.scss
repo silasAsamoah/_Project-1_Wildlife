@@ -15,8 +15,8 @@
 }
 .load-finish{
     // @include fade-out();
-    // pointer-events: none;
-    // opacity: 0 !important;
+    pointer-events: none;
     display: none !important;
+    opacity: 0 !important;
 
 }
