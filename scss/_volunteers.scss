@@ -19,11 +19,11 @@
         
     }
     .txt{
-        padding:  0;
+        padding:  0px;
         p{
             font-size: $p-md;
-            padding: 1em;
-            width: 400px;
+            padding: 1em !important;
+            max-width: 400px;
         }
     }
 }

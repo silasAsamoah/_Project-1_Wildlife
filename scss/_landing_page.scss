@@ -79,7 +79,7 @@
 /* PAGE STYLING BEGINS*/
 .landing-page {
     display: grid;
-    grid-template-rows: minmax(100px, 120px) repeat(3, 1fr);
+    grid-template-rows: minmax(100px, 120px) 1fr 1fr 1fr;
     grid-template-areas: 'header'
                          'welcome-txt'
                          'buttons'
@@ -155,7 +155,7 @@
         a{
             @include btn(inherit,inherit,transparent,15px,30px);
             min-width: 150px;
-            min-height: 50px;
+            min-height: 40px;
             text-align: center;
         }
         .donate{

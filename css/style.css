@@ -325,6 +325,7 @@ body, html {
   scroll-behavior: smooth;
   font-family: 'Barlow Condensed','Yanone Kaffeesatz',sans-serif;
   color: #fff;
+  width: 100vw;
 }
 
 .container {
@@ -473,8 +474,8 @@ body, html {
 .landing-page {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: minmax(100px, 120px) (1fr)[3];
-      grid-template-rows: minmax(100px, 120px) repeat(3, 1fr);
+  -ms-grid-rows: minmax(100px, 120px) 1fr 1fr 1fr;
+      grid-template-rows: minmax(100px, 120px) 1fr 1fr 1fr;
       grid-template-areas: 'header' 'welcome-txt' 'buttons' 'card';
   height: 600px;
   background: url(../asserts/img/bg.jpg);
@@ -626,7 +627,7 @@ body, html {
   font-weight: 600;
   padding: 15px 30px;
   min-width: 150px;
-  min-height: 50px;
+  min-height: 40px;
   text-align: center;
 }
 
@@ -1245,13 +1246,13 @@ body, html {
 }
 
 .volunteers .txt {
-  padding: 0;
+  padding: 0px;
 }
 
 .volunteers .txt p {
   font-size: 16px;
-  padding: 1em;
-  width: 400px;
+  padding: 1em !important;
+  max-width: 400px;
 }
 
 .makeDonation {
