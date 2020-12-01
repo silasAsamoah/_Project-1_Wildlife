@@ -1,3 +1,5 @@
+
+
 .video{
     padding-top: 47px;
     padding-bottom: 37px;
@@ -9,6 +11,20 @@
     
     @include layout(flex,row,space-evenly,unset);
     flex-wrap: wrap;
+
+    .vid-overlay{
+        #vid_frame{
+            display: none;
+            position: static;
+            border: none;
+        }
+        .pop_up{
+            @include fade-in();
+            display: block !important;
+            position: absolute !important;
+
+        }
+    }
 
     img{
         width: 284px;

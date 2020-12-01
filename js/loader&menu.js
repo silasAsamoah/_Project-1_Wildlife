@@ -24,11 +24,26 @@ window.addEventListener('load',()=> {
 //FOR MENU
 var menu=document.getElementById('menu_nav');
 var overlay=document.getElementById('menu_overlay');
-// var container = document.querySelector('.container');
-// var endangered = document.querySelector('.endangered');
+var vidFrame = document.getElementById('vid_frame');
+var playbtn = document.getElementById('play_btn');
+
+
+//for national park video 
+function play(){
+    vidFrame.classList.add('pop_up');
+    playbtn.style.display='none';
+
+    window.addEventListener('mouseup',function(event){
+        if(event.target != vidFrame){
+            playbtn.style.display="inline";
+            vidFrame.classList.remove('pop_up');
+        }
+    });  
+}
 
 //show menu content on menuclick
 //and add styling class
+
 function show(){
     menu.style.display='block';
     menu.classList.add('menu_content');
@@ -36,8 +51,6 @@ function show(){
     // container.style.opacity = 0.5;
     // endangered.style.opacity = 0.5;
     // menu.style.opacity=1;
-
-
 
     /*hide menu content onselection or outside click
     */

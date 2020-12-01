@@ -293,6 +293,24 @@
 
 /* Opera < 12.1 */
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .loading {
   position: fixed;
   width: 100%;
@@ -1072,6 +1090,23 @@ body, html {
           align-items: unset;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.video .vid-overlay #vid_frame {
+  display: none;
+  position: static;
+  border: none;
+}
+
+.video .vid-overlay .pop_up {
+  animation: fadeIn ease 1s;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  display: block !important;
+  position: absolute !important;
 }
 
 .video img {

@@ -181,3 +181,39 @@ $p-lg: 17px;
          -o-animation: fadeout 2s ease; /* Opera < 12.1 */
             animation: fadeout 2s ease;
 }
+
+
+//national pock video animation
+@mixin fade-in{
+	$fade-delay: 1s;
+	animation: fadeIn ease $fade-delay;
+	animation: fadeIn ease $fade-delay;
+	-webkit-animation: fadeIn ease $fade-delay;
+	-moz-animation: fadeIn ease $fade-delay;
+	-o-animation: fadeIn ease $fade-delay;
+	-ms-animation: fadeIn ease $fade-delay;
+}
+@keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
